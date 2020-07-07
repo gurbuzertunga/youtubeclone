@@ -42,23 +42,29 @@ nav {
 }
 
 .video {
-    display: flex;
     margin-top: 50px;
     flex-direction: column;
 }
 .subvideo {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-content: stretch;
+    width: 800px;
 }
-#weirdbuttons {
+.subvideo2 {
+    display: flex;
+    justify-content: space-between;
+}
+.weirdbuttons {
     display: flex;
     height: 50px;
     width: auto;
+    justify-content: space-between;
 }
 #viewcount {
-    align-content: flex-start;
+ 
 }
-#like {
-    align-content: center;
+.rightside {
+    display: flex;
+
 }
