@@ -1,44 +1,45 @@
 head {
-    background-color: aquamarine;
     height: 5%;
     width: auto;
     top: 0;
     width: 100%;
-    border: solid black;
-}
+    }
 nav {
     top: 0;
     width: 100%;
     display: flex;
-    
+    }
+
+.search {
+    margin-left: auto;
+    margin-right: auto;
 }
 #youtubelogo {
     width: auto;
-    height: 50px;
+    height: 24px;
     align-self: flex-start;
 }
 #searchinput {
-    width: auto;
-    height: 50px;
-    align: center;
+    width: 400px;
+    height: 24px;
 }
 #button {
     width: auto;
-    height: 50px;
+    height: 24px;
 }
 #bell {
     width: auto;
-    height: 50px;
+    height: 24px;
 }
 #upload {
     width: auto;
-    height: 50px;
+    height: 24px;
 }
 #avatar {
     width: auto;
-    height: 50px;
+    height: 24px;
     align-self: flex-end;
 }
 body {
-    background-color: azure;
+    
 }
