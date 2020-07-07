@@ -44,4 +44,21 @@ nav {
 .video {
     display: flex;
     margin-top: 50px;
+    flex-direction: column;
+}
+.subvideo {
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+}
+#weirdbuttons {
+    display: flex;
+    height: 50px;
+    width: auto;
+}
+#viewcount {
+    align-content: flex-start;
+}
+#like {
+    align-content: center;
 }
