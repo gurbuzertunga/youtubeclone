@@ -40,6 +40,8 @@ nav {
     height: 24px;
     align-self: flex-end;
 }
-body {
-    
+
+.video {
+    display: flex;
+    margin-top: 50px;
 }
