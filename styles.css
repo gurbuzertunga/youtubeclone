@@ -1,6 +1,43 @@
 head {
     background-color: aquamarine;
+    height: 5%;
+    width: auto;
+    top: 0;
+    width: 100%;
+    border: solid black;
 }
+nav {
+    top: 0;
+    width: 100%;
+    display: flex;
+    
+}
+#youtubelogo {
+    width: auto;
+    height: 50px;
+    align-self: flex-start;
+}
+#searchinput {
+    width: auto;
+    height: 50px;
+    align: center;
+}
+#button {
+    width: auto;
+    height: 50px;
+}
+#bell {
+    width: auto;
+    height: 50px;
+}
+#upload {
+    width: auto;
+    height: 50px;
+}
+#avatar {
+    width: auto;
+    height: 50px;
+    align-self: flex-end;
 }
 body {
     background-color: azure;
