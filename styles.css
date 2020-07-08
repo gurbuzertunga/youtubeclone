@@ -30,15 +30,17 @@ nav {
 #bell {
     width: auto;
     height: 24px;
+    margin-left: 1.2%;
 }
 #upload {
     width: auto;
     height: 24px;
+    margin-left: 1.2%;
 }
 #avatar {
     width: auto;
     height: 24px;
-    align-self: flex-end;
+    margin-left: 1.2%;
 }
 .video-container {
     float: left;
@@ -70,21 +72,20 @@ nav {
 }
 .rightside {
     float: right;
-    width: 14.7%
-}
+    }
 #like {
     width: 24px; 
     height: 24px;
-}
+    }
 #dislike {
     width: 24px; 
     height: 24px;
-    margin-left: 10%;
+    margin-left: 10px;
 }
 #share {
     width: auto; 
     height: 40px;
-    margin-left: 10%;
+    margin-left: 10px;
 }
 .subvideo3 {
     width:100%
@@ -105,6 +106,7 @@ body {
     float: right;
     width: 25%;
     margin-top: 2.2%;
+    margin-right: 3%;
 }
 .thumbnail-1 {
     width: 100%;
@@ -118,9 +120,13 @@ body {
 .description {
     width:47%;
     float: right;
-    font-size: 15px;
+    font-size: 12px;
     font-family: Roboto, Arial, sans-serif;
-    
+    font-weight: 600;
+}
+#views {
+    font-size: 10px;
+    font-weight: 400;
 }
 .thumbnail-2 {
     width: 100%;
