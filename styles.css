@@ -64,7 +64,24 @@ nav {
 #viewcount {
  
 }
+
 .rightside {
     display: flex;
+}
 
+.sidebar {
+    width: 25%;
+    float: right;
+}
+body {
+    width: 100%;
+}
+.video-container {
+    float: left;
+    width: 70%;
+}
+
+.sidebar-container {
+    float: right;
+    width: 25%;
 }
