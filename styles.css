@@ -40,16 +40,23 @@ nav {
     height: 24px;
     align-self: flex-end;
 }
-
+.video-container {
+    float: left;
+    width: 70%;
+    margin-left: 1.2%
+}
 .video {
-    margin-top: 50px;
-    flex-direction: column;
+    margin-top: 3%;
+}
+#iframe {
+    width: 100%;
+    height: 70%;
 }
 .subvideo {
     display: flex;
     flex-direction: column;
     align-content: stretch;
-    width: 800px;
+    
 }
 .subvideo2 {
     display: flex;
@@ -76,14 +83,15 @@ nav {
 body {
     width: 100%;
 }
-.video-container {
-    float: left;
-    width: 70%;
-}
+
 
 .sidebar-container {
     float: right;
     width: 25%;
+    margin-top: 2.2%;
+}
+.thumbnail-1 {
+    width: 100%;
 }
 #togetherforever {
     width: 50%;
@@ -91,11 +99,25 @@ body {
     margin-right: 10px;
     margin-bottom: 10px;
 }
+.bla1 {
+    width:47%;
+    float: right;
+}
+.thumbnail-2 {
+    width: 100%;
+}
 #angelsonmyside {
     width: 50%;
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
+}
+.bla2 {
+    width: 47%;
+    float: right;
+}
+.thumbnail-3 {
+    width: 100%;
 }
 #keepsinging {
     width: 50%;
@@ -103,11 +125,25 @@ body {
     margin-right: 10px;
     margin-bottom: 10px;
 }
+.bla3 {
+    width: 47%;
+    float: right;
+}
+.thumbnail-4 {
+    width: 100%;
+}
 #takemetoyourheart {
     width: 50%;
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
+}
+.bla4 {
+    width: 47%;
+    float: right;
+}
+.thumbnail-5 {
+    width: 100%;
 }
 #wheneveryouneedsomebody {
     width: 50%;
@@ -115,12 +151,7 @@ body {
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.thumbnail-1 {
-    padding: 20px 20px 20px 20px;
-    font-size: 5px;
-    border: 5px solid black;
-}
-.thumbnail-2 {
-    padding: 20px 20px 20px 20px;
-    font-size: 5px;
+.bla5 {
+    width: 47%;
+    float: right;
 }
