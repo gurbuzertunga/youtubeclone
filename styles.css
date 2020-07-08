@@ -53,28 +53,43 @@ nav {
     height: 70%;
 }
 .subvideo {
-    display: flex;
-    flex-direction: column;
-    align-content: stretch;
-    
+    width: 100%    
+}
+#title {
+    font-size: 20px;
 }
 .subvideo2 {
-    display: flex;
-    justify-content: space-between;
+    width: 100%
 }
-.weirdbuttons {
-    display: flex;
-    height: 50px;
-    width: auto;
-    justify-content: space-between;
+.leftside {
+    display:inline-block;
 }
 #viewcount {
- 
+    font-size: 15px;
+    color: rgb(107, 107, 107);
+}
+.rightside {
+    float: right;
+    width: 14.7%
+}
+#like {
+    width: 24px; 
+    height: 24px;
+}
+#dislike {
+    width: 24px; 
+    height: 24px;
+    margin-left: 10%;
+}
+#share {
+    width: auto; 
+    height: 40px;
+    margin-left: 10%;
+}
+.subvideo3 {
+    width:100%
 }
 
-.rightside {
-    display: flex;
-}
 
 .sidebar {
     width: 25%;
@@ -82,6 +97,7 @@ nav {
 }
 body {
     width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -99,9 +115,12 @@ body {
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.bla1 {
+.description {
     width:47%;
     float: right;
+    font-size: 15px;
+    font-family: Roboto, Arial, sans-serif;
+    
 }
 .thumbnail-2 {
     width: 100%;
@@ -112,10 +131,6 @@ body {
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.bla2 {
-    width: 47%;
-    float: right;
-}
 .thumbnail-3 {
     width: 100%;
 }
@@ -124,10 +139,6 @@ body {
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
-}
-.bla3 {
-    width: 47%;
-    float: right;
 }
 .thumbnail-4 {
     width: 100%;
@@ -138,10 +149,6 @@ body {
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.bla4 {
-    width: 47%;
-    float: right;
-}
 .thumbnail-5 {
     width: 100%;
 }
@@ -151,7 +158,4 @@ body {
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.bla5 {
-    width: 47%;
-    float: right;
-}
+
