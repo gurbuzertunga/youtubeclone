@@ -4,7 +4,7 @@
 
 > Gürbüz and Marko worked on the project Youtube Clone. It's about embedding videos on a html page and adding a navigation bar with sidebar included.
 
-![screenshot](https://imgur.com/a/xZSePTf)
+![screenshot](https://i.imgur.com/bvB6ZkS.png)
 
 The project has three separate features. 
 1- A static nav-bar for the youtube logo, search bar, search Icon and various related Icon.
