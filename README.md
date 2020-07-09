@@ -19,7 +19,8 @@ The project has three separate features.
 
 ## Live Demo
 
-https://raw.githack.com/gurbuzertunga/youtubeclone/feature2testing/index.html
+You can check our live demo here: [YouTube Clone](https://raw.githack.com/gurbuzertunga/youtubeclone/feature2testing/index.html) 
+
 
 
 
