@@ -1,33 +1,35 @@
-head {
-  height: 5%;
-  width: auto;
-  top: 0;
-  width: 100%;
+body {
+  height: 100%;
+  max-width: 100%;
+  font-family: "Roboto", sans-serif;
 }
 nav {
-  top: 0;
+  top: 0px;
   width: 100%;
   display: flex;
 }
-
-.search {
-  margin-left: auto;
-  margin-right: auto;
-}
-#youtubelogo {
+#youtube-logo {
   width: auto;
   height: 24px;
   align-self: flex-start;
 }
-#searchinput {
+.search {
+  margin-left: auto;
+  margin-right: auto;
+}
+#search-input {
   width: 400px;
   height: 24px;
+}
+#search-button {
+  width: auto;
+  height: 18px;
 }
 #button {
   width: auto;
   height: 24px;
 }
-#navitems {
+.nav-items {
   width: auto;
   height: 24px;
   margin-left: 1.2%;
@@ -42,7 +44,7 @@ nav {
 }
 #iframe {
   width: 100%;
-  height: 70%;
+  height: 450px;
 }
 .subvideo {
   width: 100%;
@@ -53,9 +55,13 @@ nav {
 .leftside {
   display: inline-block;
 }
-#viewcount {
+#view-count {
   font-size: 15px;
   color: rgb(107, 107, 107);
+}
+#avatar {
+  width: 24px;
+  height: 24px;
 }
 .rightside {
   float: right;
@@ -69,31 +75,25 @@ nav {
   height: 24px;
   margin-left: 10px;
 }
-#share {
+#share-icon {
   width: auto;
-  height: 40px;
+  height: 24px;
   margin-left: 10px;
 }
-
-.sidebar {
-  width: 25%;
-  float: right;
+#subscribe-icon {
+  width: 75px;
+  height: 24px;
 }
-body {
-  width: 100%;
-  font-family: "Roboto", sans-serif;
-}
-
 .sidebar-container {
   float: right;
   width: 25%;
   margin-top: 2.2%;
   margin-right: 3%;
 }
-.thumbnail-1 {
+.thumbnail {
   width: 100%;
 }
-#togetherforever {
+.song {
   width: 50%;
   float: left;
   margin-right: 10px;
@@ -106,43 +106,7 @@ body {
   font-family: Roboto, Arial, sans-serif;
   font-weight: 600;
 }
-#views {
+.views {
   font-size: 10px;
   font-weight: 400;
-}
-.thumbnail-2 {
-  width: 100%;
-}
-#angelsonmyside {
-  width: 50%;
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-.thumbnail-3 {
-  width: 100%;
-}
-#keepsinging {
-  width: 50%;
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-.thumbnail-4 {
-  width: 100%;
-}
-#takemetoyourheart {
-  width: 50%;
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-.thumbnail-5 {
-  width: 100%;
-}
-#wheneveryouneedsomebody {
-  width: 50%;
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 10px;
 }
