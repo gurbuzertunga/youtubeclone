@@ -16,9 +16,10 @@ nav {
 .search {
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
 }
 #search-input {
-  width: 400px;
+  width: 75%;
   height: 24px;
 }
 #search-button {
@@ -124,23 +125,26 @@ nav {
   grid-column: 3 / 5;
 }
 .sidebar-container {
-  float: right;
+  display: flex;
+  flex-direction: column;
   width: 25%;
   margin-top: 2.2%;
   margin-right: 3%;
+
 }
 .thumbnail {
   width: 100%;
+  display: flex;
 }
 .song {
   width: 50%;
-  float: left;
+  flex: start;
   margin-right: 10px;
   margin-bottom: 10px;
 }
 .description {
   width: 47%;
-  float: right;
+  flex: end;
   font-size: 12px;
   font-family: Roboto, Arial, sans-serif;
   font-weight: 600;
