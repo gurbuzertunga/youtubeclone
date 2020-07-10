@@ -11,10 +11,10 @@
 
 <body>
     <nav>
-        <img src="img/youtube-logo.png" alt="Youtube Company logo" id="youtube-logo">
+        <img src="img/youtube-logo.png" alt="Youtube Company logo" class="youtube-logo">
         <div class="search">
-            <input type="text" placeholder="Search your music" id="search-input">
-            <input id="search-button" type="image" src="img/searchicon.png" alt="Search Icon">
+            <input type="text" placeholder="Search your music" class="search-input">
+            <input class="search-button" type="image" src="img/searchicon.png" alt="Search Icon">
         </div>
         <img src="img/notification-icon.png" alt="Notification Icon" class="nav-items" id="bell">
         <img src="img/upload-icon.png" alt="Upload Icon" class="nav-items">
@@ -22,23 +22,35 @@
     </nav>
     <main>
     <div class="video-container">        
-            <iframe id="iframe" src="https://www.youtube.com/embed/DLzxrzFCyOs"
+            <iframe class="iframe" src="https://www.youtube.com/embed/DLzxrzFCyOs"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>        
         <div class="subvideo-container">
             <div class="subvideo">
-                <p class="" id="title">Rick Astley - Never Gonna Give You Up (Video)</p>
+                <p class="" class="title">Rick Astley - Never Gonna Give You Up (Video)</p>
             </div>
                 <div class="subvideo2">                         
-                        <img src="img/avatar-icon.png" alt="Avatar" class="" id="avatar">
-                        <p id="username">Rick Astley</p>
-                        <input id="subscribe-icon" type="image" src="img/subscribe-icon.png" alt="Subscribe Icon">                                         
-                        <p id="view-count">7.578.549 views</p>                     
+                        <img src="img/avatar-icon.png" alt="Avatar" class="avatar">
+                        <p class="username">Rick Astley</p>
+                        <button type="button" class="subscribe-button">
+                        </button>                                       
+                        <p class="view-count">7.578.549 views</p>                     
                 </div>
                 <div class="break"></div>
                 <div class="subvideo3">                    
-                    <div>
-                        <input class="social-button" type="image" src="img/share-icon.png" alt="Share Icon">
+                    <div class="option-buttons">
+                        <button type="button" class="option-buttons1">
+                            <img src="img/share-icon.png" alt="Share Icon" class="option-images">
+                            <p class="option-texts">  Share</p>
+                        </button>
+                        <button type="button" class="option-buttons1">
+                            <img src="img/plus-icon.png" alt="Share Icon" class="option-images">
+                            <p class="option-texts">  Add to</p>
+                        </button>
+                        <button type="button" class="option-buttons1">
+                            <img src="img/more-icon.png" alt="Share Icon" class="option-images">
+                            <p class="option-texts">  More</p>
+                        </button>
                     </div>
                     <div>
                     <img src="img/like-icon.png" alt="like Icon" id="like" class="social-button">
