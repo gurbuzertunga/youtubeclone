@@ -26,32 +26,27 @@ nav {
   width: auto;
   height: 18px;
 }
-#button {
-  width: auto;
-  height: 24px;
-}
 .nav-items {
   width: auto;
   height: 24px;
   margin-left: 1.2%;
 }
-.main-body {
+main {
   display: flex;
   width: 100%;
   justify-content: space-between;
 }
+/* Video Container covers the 70% of the page */
 .video-container {
   width: 70%;
   margin-left: 1.2%;
 }
-.video {
+#iframe {
   margin-top: 3%;
   flex-grow: 1;
-}
-#iframe {
   width: 100%;
   height: 450px;
-}
+} 
 .subvideo-container {
   width: 100%;
   display: flex;
@@ -64,29 +59,29 @@ nav {
 .subvideo2 {
   width: 98.5%;
   display: grid;
-  grid-template-columns: repeat(60, 1fr);
+  grid-template-columns: repeat(4, 1fr) 65% repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 10px;
 }
 .subvideo3 {
   width: 98.5%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
 }
 .break {
   width: 100%;
-  height: 20px;
-  border-top: solid gray;
+  height: 1px;
+  margin-bottom: 10px;
+  border-top: solid rgb(156, 155, 155, .25);
 }
 #title {
   font-size: 20px;
 }
-.leftside {
-  display: inline-block;
-}
 #view-count {
-  font-size: 15px;
+  font-size: 14px;
   color: rgb(107, 107, 107);
-  grid-column: 53 / 61;
+  grid-column:  6 / 10;
   grid-row: 2 / 3;
 }
 #avatar {
@@ -95,20 +90,7 @@ nav {
   grid-column: 1 / 2;
   grid-row: 1 / 3;
 }
-.rightside {
-  float: right;
-}
-#like {
-  width: 24px;
-  height: 24px;
- 
-}
-#dislike {
-  width: auto;
-  height: 24px;
-  margin-left: 10px;
-}
-#share-icon {
+.social-button {
   width: auto;
   height: 24px;
   margin-left: 10px;
@@ -116,14 +98,15 @@ nav {
 #username {
   font-size: 15px;
   grid-row: 1 / 2;
-  grid-column: 3 / 5;
+  grid-column: 2 / 5;
 }
 #subscribe-icon {
-  width: 105px;
+  width: auto;
   height: 32px;
   grid-row: 2 / 3;
-  grid-column: 3 / 5;
+  grid-column: 2 / 5;
 }
+/* sidebar container has 25% of the page */
 .sidebar-container {
   display: flex;
   flex-direction: column;
