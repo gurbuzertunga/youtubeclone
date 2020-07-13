@@ -1,8 +1,103 @@
-<html>
-    <head>
+<!DOCTYPE html>
+<html lang="en">
 
-    </head>
-    <body>
-        
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <img src="img/youtube-logo.png" alt="Youtube Company logo" class="youtube-logo">
+        <div class="search">
+            <input type="text" placeholder="Search your music" class="search-input">
+            <input class="search-button" type="image" src="img/searchicon.png" alt="Search Icon">
+        </div>
+        <img src="img/notification-icon.png" alt="Notification Icon" class="nav-items" id="bell">
+        <img src="img/upload-icon.png" alt="Upload Icon" class="nav-items">
+        <img src="img/avatar-icon.png" alt="Avatar Icon" class="nav-items">
+    </nav>
+    <main>
+    <div class="video-container">        
+            <iframe class="iframe" src="https://www.youtube.com/embed/DLzxrzFCyOs"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>        
+        <div class="subvideo-container">
+            <div class="subvideo">
+                <p class="" class="title">Rick Astley - Never Gonna Give You Up (Video)</p>
+            </div>
+                <div class="subvideo2">                         
+                        <img src="img/avatar-icon.png" alt="Avatar" class="avatar">
+                        <p class="username">Rick Astley</p>
+                        <button type="button" class="subscribe-button">
+                        </button>                                       
+                        <p class="view-count">7.578.549 views</p>                     
+                </div>
+                <div class="break"></div>
+                <div class="subvideo3">                    
+                    <div class="option-buttons">
+                        <button type="button" class="option-buttons1">
+                            <img src="img/share-icon.png" alt="Share Icon" class="option-images">
+                            <p class="option-texts">  Share</p>
+                        </button>
+                        <button type="button" class="option-buttons1">
+                            <img src="img/plus-icon.png" alt="Share Icon" class="option-images">
+                            <p class="option-texts">  Add to</p>
+                        </button>
+                        <button type="button" class="option-buttons1">
+                            <img src="img/more-icon.png" alt="Share Icon" class="option-images">
+                            <p class="option-texts">  More</p>
+                        </button>
+                    </div>
+                    <div>
+                    <img src="img/like-icon.png" alt="like Icon" id="like" class="social-button">
+                    <img src="img/dislike-icon.jpeg" alt="Dislike Icon" id="dislike" class="social-button">
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="sidebar-container">
+        <div class="thumbnail">
+            <img src="img/togetherforever.png" alt="Thumbnail for Together Forever" class="song">
+            <div class="description">
+                <p>Rick Astley - Together Forever</p>
+                <p class="views">102 mil Views</p>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <img src="img/angelsonmyside.png" alt="Thumbnail for Angels on my Side" class="song">
+            <div class="description">
+                <p>Rick Astley - Angels on my Side</p>
+                <p class="views">7.3 mil Views</p>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <img src="img/keepsinging.png" alt="Thumbnail for Keep Singing" class="song">
+            <div class="description">
+                <p>Rick Astley - Keep Singing</p>
+                <p class="views">5.2 mil Views</p>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <img src="img/takemetoyourheart.png" alt="Thumbnail for Take me to your Heart" class="song">
+            <div class="description">
+                <p>Rick Astley - Take me to your Heart</p>
+                <p class="views">14 mil Views</p>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <img src="img/wheneveryouneedsomebody.png" alt="Thumbnail for Whenever you need somebody" class="song">
+            <div class="description">
+                <p>Rick Astley - Whenever you need Somebody</p>
+                <p class="views">19 mil Views</p>
+            </div>
+        </div>
+    </div>
+    </main>
+</body>
+
 </html>
