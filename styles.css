@@ -1,70 +1,159 @@
-head {
-    height: 5%;
-    width: auto;
-    top: 0;
-    width: 100%;
-    }
+body {
+  height: 100%;
+  max-width: 100%;
+  font-family: "Roboto", sans-serif;
+}
 nav {
-    top: 0;
-    width: 100%;
-    display: flex;
-    }
-
+  top: 0px;
+  width: 100%;
+  display: flex;
+}
+.youtube-logo {
+  width: auto;
+  height: 24px;
+  align-self: flex-start;
+}
 .search {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
-#youtubelogo {
-    width: auto;
-    height: 24px;
-    align-self: flex-start;
+.search-input {
+  width: 75%;
+  height: 24px;
 }
-#searchinput {
-    width: 400px;
-    height: 24px;
+.search-button {
+  width: auto;
+  height: 18px;
 }
-#button {
-    width: auto;
-    height: 24px;
+.nav-items {
+  width: auto;
+  height: 24px;
+  margin-left: 1.2%;
 }
-#bell {
-    width: auto;
-    height: 24px;
+main {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
-#upload {
-    width: auto;
-    height: 24px;
+/* Video Container covers the 70% of the page */
+.video-container {
+  width: 70%;
+  margin-left: 1.2%;
 }
-#avatar {
-    width: auto;
-    height: 24px;
-    align-self: flex-end;
-}
-
-.video {
-    margin-top: 50px;
-    flex-direction: column;
+.iframe {
+  margin-top: 3%;
+  flex-grow: 1;
+  width: 100%;
+  height: 450px;
+} 
+.subvideo-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .subvideo {
-    display: flex;
-    flex-direction: column;
-    align-content: stretch;
-    width: 800px;
+  width: 100%;
+  align-content: flex-start;
 }
 .subvideo2 {
-    display: flex;
-    justify-content: space-between;
+  width: 98.5%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 65% repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 10px;
 }
-.weirdbuttons {
-    display: flex;
-    height: 50px;
-    width: auto;
-    justify-content: space-between;
+.subvideo3 {
+  width: 98.5%;
+  display: flex;
+  justify-content: space-between; 
 }
-#viewcount {
- 
+.break {
+  width: 100%;
+  height: 1px;
+  margin-bottom: 10px;
+  border-top: solid rgb(156, 155, 155, .25);
 }
-.rightside {
-    display: flex;
+.title {
+  font-size: 20px;
+}
+.view-count {
+  font-size: 14px;
+  color: rgb(107, 107, 107);
+  grid-column:  6 / 10;
+  grid-row: 2 / 3;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+.social-button {
+  width: 40px;
+  height: auto;
+  margin-left: 10px;
+}
+.option-buttons1 {
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: transparent;
+  background-color: white;
+}
+.option-buttons {
+  display: flex;
+}
+.option-images {
+  width: 24px;
+  height: auto;
+}
+.option-texts {
+  padding-left: 5px;
+}
+.username {
+  font-size: 15px;
+  grid-row: 1 / 2;
+  grid-column: 2 / 5;
+}
+.subscribe-button {
+  width: auto;
+  height: 32px;
+  grid-row: 2 / 3;
+  grid-column: 2 / 5;
+  background-size: 100%;
+  background-image: url('img/subscribe-icon.png');
+  border: transparent;
+}
+/*sidebar container has 25% of the page */
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-top: 2.2%;
+  margin-right: 3%;
 
+}
+.thumbnail {
+  width: 100%;
+  display: flex;
+}
+.song {
+  width: 50%;
+  flex: start;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.description {
+  width: 47%;
+  flex: end;
+  font-size: 12px;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 600;
+}
+.views {
+  font-size: 10px;
+  font-weight: 400;
 }
